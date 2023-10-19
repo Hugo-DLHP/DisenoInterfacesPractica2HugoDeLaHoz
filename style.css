@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'caveat';
+    src: url('./CaveatBrush-Regular.ttf');
+}
+* {
+    background-color: #FFF5EC;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado {
+    width: 48%;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: black solid 3px;
+    margin-top: 15px;
+}
+
+.cuadrado:first-child {
+    margin-right: 10px;
+}
+
+.nav {
+    font-family: caveat;
+    background-color: #EA692F!important;
+}
+
+.nav li {
+    margin-right: 40px;
+}

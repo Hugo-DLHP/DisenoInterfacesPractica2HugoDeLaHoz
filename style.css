@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'luna';
+    src: url('./Luna.ttf');
+}
+
+* {
+    background-color: #FFF5EC;
+}
+
+.contenedor1, .contenedor2, .contenedor3, .contenedor4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado:first-child {
+    margin-right: 30px;
+}
+
+.contenedor1 .cuadrado {
+    padding-right: 10px;
+    background-color: #EA692F;
+    margin-right: 0px;
+    width: 98%;
+    height: 50px;
+    display: flex;
+}
+
+.contenedor2 .cuadrado {
+    height: 400px;
+}
+
+.users {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenedor2 .cuadrado .texto0 {
+    background-color: #FFFFFF;
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px auto;
+}
+
+.texto0 p {
+    background-color: #FFFFFF;
+}
+
+.contenedor3 .cuadrado {
+    height: 275px;
+    margin-bottom: 15px;
+}
+
+.contenedor4 .cuadrado {
+    background-color: #EA692F;
+    margin-right: 0px;
+    width: 98%;
+    height: 200px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center; 
+}
+
+ul, li {
+    background-color: #EA692F;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    font-family: luna;
+    font-size: 10px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+#ap {
+    color: white;
+}
+
+.buscar {
+    margin-top: 8px;
+    margin-left: auto;
+    width: 200px;
+    height: 30px; 
+    background-color: #FFFFFF; 
+    border: 2px solid black; 
+}
+
+.buscar svg {
+    margin-left: 10px;
+}
+
+.logo_users {
+    margin: auto 0;
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: black solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+svg {
+    background-color: #FFFFFF;
+}
+
+.cuadrado {
+    width: 48%;
+    background-color: #FFFFFF;
+    border: black solid 3px;
+    margin-top: 15px;
+}
+
+.cuadrado .titulo {
+    border: 2px blue solid;
+    background-color: white;
+    padding: 3px;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.titulo h2, h6, h4 {
+    background-color: white;
+    text-align: center;
+}
+
+.texto {
+    margin-left: 5%;
+    width: 35%;
+    background-color: #EA692F;
+}
+
+.texto .titulo {
+    margin: 0 auto;
+}
+
+.texto p {
+    background-color: #EA692F;
+}
+
+.texto2 {
+    border: black 2px solid;
+    margin-left: 5%;
+    display: flex;
+    width: 20%;
+    background-color: #EA692F;
+}
+
+.texto2 ul, li {
+    display: block;
+}
+
+.texto2 .lista {
+    background-color: #EA692F;
+}
+
+.texto2 .titulo {
+    width: 55%;
+    height: 3em;
+}

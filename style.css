@@ -99,3 +99,16 @@ svg {
     border: black solid 3px;
     margin-top: 15px;
 }
+
+.cuadrado .titulo {
+    border: 2px blue solid;
+    background-color: white;
+    padding: 3px;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.titulo h2 {
+    background-color: white;
+    text-align: center;
+}

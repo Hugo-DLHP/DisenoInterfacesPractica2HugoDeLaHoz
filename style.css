@@ -32,6 +32,26 @@
     height: 400px;
 }
 
+.users {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenedor2 .cuadrado .texto0 {
+    background-color: #FFFFFF;
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px auto;
+}
+
+.texto0 p {
+    background-color: #FFFFFF;
+}
+
 .contenedor3 .cuadrado {
     height: 275px;
     margin-bottom: 15px;
@@ -76,9 +96,10 @@ li {
 .buscar svg {
     margin-left: 10px;
 }
+
 .logo_users {
     margin: auto 0;
-    margin-left: 30px;
+    margin-left: 15px;
     width: 100px;
     height: 100px;
     background-color: #FFFFFF;
@@ -108,7 +129,42 @@ svg {
     margin: 15px auto;
 }
 
-.titulo h2 {
+.titulo h2, h6, h4 {
     background-color: white;
     text-align: center;
+}
+
+.texto {
+    margin-left: 5%;
+    width: 35%;
+    background-color: #EA692F;
+}
+
+.texto .titulo {
+    margin: 0 auto;
+}
+
+.texto p {
+    background-color: #EA692F;
+}
+
+.texto2 {
+    border: black 2px solid;
+    margin-left: 5%;
+    display: flex;
+    width: 20%;
+    background-color: #EA692F;
+}
+
+.texto2 ul, li {
+    display: block;
+}
+
+.texto2 .lista {
+    background-color: #EA692F;
+}
+
+.texto2 .titulo {
+    width: 55%;
+    height: 3em;
 }

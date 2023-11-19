@@ -29,7 +29,7 @@
 }
 
 .contenedor2 .cuadrado {
-    height: 400px;
+    min-height: 600px;
 }
 
 .users {
@@ -53,8 +53,15 @@
 }
 
 .contenedor3 .cuadrado {
-    height: 275px;
+    min-height: 507px;
     margin-bottom: 15px;
+}
+
+.contenedor3 .cuadrado:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contenedor4 .cuadrado {
@@ -65,6 +72,22 @@
     margin-bottom: 35px;
     display: flex;
     align-items: center; 
+}
+
+.negro, .negro p {
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.p {
+    padding-bottom: 4em;
+    background-color: #FFFFFF;
 }
 
 ul, li {
@@ -169,16 +192,31 @@ svg {
     height: 3em;
 }
 
-.lista_radios p, input, div, .lista_radios {
+
+.lista_radios p, input, div, b, .lista_radios, .lista_users p {
     background-color: #FFFFFF;
 }
 
-.lista_radios{
+
+.listas {
+    display: flex;
+}
+
+.lista_radios {
     width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.texto_radios {
+    width: 50%;
+}
+
+.texto_radios p {
+    background-color: #FFFFFF;
+    margin: 50px auto;
 }
 
 .inputs {
@@ -187,8 +225,6 @@ svg {
     justify-content: space-around;
     line-height: 2em;
 }
-
-
 
 .inputs p {
     margin-top: 13px;
